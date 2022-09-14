@@ -118,4 +118,20 @@ form input[type="search"] {
 }
 .main {
     background-color: rgb(240, 240, 240);
+    padding: 1.5vh;
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+}
+.main .right {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 3vh;
+}
+.announcements, .trending {
+    padding: 1.5vh;
+    border-radius: 10px;
+    background-color: white;
+}
+.text {
+    font-family: RobotoLight;
 }
