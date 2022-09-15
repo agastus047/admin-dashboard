@@ -135,3 +135,37 @@ form input[type="search"] {
 .text {
     font-family: RobotoLight;
 }
+.trending img[alt="animal dp"] {
+    height: 7vh;
+    width: 7wh;
+    border-radius: 50%;
+}
+.trending {
+    display: grid;
+    gap: 1.5vh;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: repeat(4, 1fr);
+}
+.trending > div {
+    align-self: center;
+}
+.container .card {
+    display: grid;
+    grid-template-columns: 8px 1fr;
+    border-radius: 10px;
+}
+.card-body {
+    background-color: white;
+    padding: 2.5vh;
+}
+.card-body .icons {
+    display: flex;
+    gap: 2vw;
+    justify-content: flex-end;
+}
+.container {
+    margin-right: 3vh;
+    display: grid;
+    gap: 4vh;
+    grid-template-columns: repeat(auto-fit,minmax(350px, 1fr));
+}
